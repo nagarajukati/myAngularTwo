@@ -1,0 +1,111 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 2,
+      "productName": "Polo T Shirts",
+      "description": "productdesc1",
+      "rating": 5,
+      "price": 50,
+      "isAvailable": true,
+      "color": "red",
+      "reviews": 10,
+      "productImg": "http://localhost:4200/assets/"
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "productName": "Soccer T Shirts",
+      "description": "productdesc2",
+      "rating": 4,
+      "price": 100,
+      "isAvailable": true,
+      "color": "yello",
+      "reviews": 8
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "productName": "Casual T Shirts",
+      "description": "productdesc3",
+      "rating": 4,
+      "price": 100,
+      "isAvailable": true,
+      "color": "yello",
+      "reviews": 8
+    },
+    {
+      "id": 4,
+      "categoryId": 3,
+      "productName": "Headphone4",
+      "description": "productdesc4",
+      "rating": 4,
+      "price": 100,
+      "isAvailable": true,
+      "color": "yello",
+      "reviews": 8
+    },
+    {
+      "id": 5,
+      "categoryId": 4,
+      "productName": "Headphone5",
+      "description": "productdesc5",
+      "rating": 4,
+      "price": 100,
+      "isAvailable": true,
+      "color": "yello",
+      "reviews": 8
+    },
+    {
+      "id": 6,
+      "categoryId": 4,
+      "productName": "Headphone6",
+      "description": "productdesc6",
+      "rating": 4,
+      "price": 100,
+      "isAvailable": true,
+      "color": "yello",
+      "reviews": 8
+    },
+    {
+      "id": 7,
+      "categoryId": 4,
+      "productName": "Headphone7",
+      "description": "productdesc7",
+      "rating": 4,
+      "price": 100,
+      "isAvailable": true,
+      "color": "yello",
+      "reviews": 8
+    },
+    {
+      "productName": "Polo",
+      "description": "Polodescri[t",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "categoryName": "Polo T Shirts"
+    },
+    {
+      "id": 3,
+      "categoryName": "Soccer T Shirts"
+    },
+    {
+      "id": 4,
+      "categoryName": "Casual T Shirts"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

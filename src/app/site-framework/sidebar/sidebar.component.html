@@ -1,0 +1,10 @@
+<div class="list-group">
+    <a routerLink="products/list-products/" class="list-group-item">
+                    View All Products
+    </a>
+    <a routerLink="products/category/{{cate.id}}" class="list-group-item" *ngFor="let cate of categoryList">
+    <!--<a href="products/category/{{cate.id}}" class="list-group-item" *ngFor="let cate of categoryList" >-->
+        {{cate.categoryName}}
+    </a>
+</div>
+
